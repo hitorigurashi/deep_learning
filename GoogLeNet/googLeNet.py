@@ -1,8 +1,6 @@
-from scipy.misc import imread, imresize
 from keras.layers import Input, Dense, Conv2D, MaxPooling2D, AveragePooling2D, Dropout
 from keras.models import Model
 from keras.regularizers import l2
-from keras.optimizers import SGD
 import keras
 import sys
 from inception import inception_model
